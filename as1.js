@@ -14,7 +14,7 @@ console.log(answer2+1);
 options3 = ['only starbucks', 'tea', 'hot chocolate with marshmallows', 'a reliable cup of coffee'];
 var answer3 = readlineSync.keyInSelect(options3, "which drink is your favourite?");
 console.log(answer3+1);
-
+//
 options4 = ['a fairy', 'a silent fish', 'a loyal dog', 'a sybirian cat'];
 var answer4 = readlineSync.keyInSelect(options4, "which pet do you own?");
 console.log(answer4+1);
