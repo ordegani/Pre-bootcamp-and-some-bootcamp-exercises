@@ -1,0 +1,19 @@
+#header{
+    width:100%;
+    height: 10vh;
+    text-align: center;
+}
+#sub{
+    width:100%;
+    height: 10vh;
+    text-align: center;
+}
+#navbar{
+    width:100%;
+    height: 10vh;
+    padding-left: 12vh;
+}
+ul{
+    margin-left: 25%;
+}
+
