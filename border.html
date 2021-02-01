@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/normalize.css">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: black;
+        display: flex;
+        min-height:50vh; 
+        justify-content: center;
+        align-items: center;
+    }
+    .container h1{
+        color: blanchedalmond;
+        padding: 20px;
+        
+    }
+    .container{
+      
+       position: relative;
+           
+    }
+    .border-top-right{
+        content: "";
+        height: 15px;
+        width:15px;
+        background-color: transparent;
+        position: absolute;
+        border-top: rgb(201, 194, 177) 2px solid;
+        border-left: rgb(201, 194, 177) 2px solid;
+    }
+    .border-top-left{
+        content: "";
+        height: 15px;
+        width:15px;
+        background-color: transparent;
+        position: absolute;
+        border-top: rgb(201, 194, 177) 2px solid;
+        border-right: rgb(201, 194, 177) 2px solid;
+        left:183px;
+    }
+    .border-bottom-right{
+        content: "";
+        height: 15px;
+        width:15px;
+        background-color: transparent;
+        position: absolute;
+        border-bottom: rgb(201, 194, 177) 2px solid;
+        
+        border-left: rgb(201, 194, 177) 2px solid;
+    }
+    .border-bottom-left{
+        content: "";
+        height: 15px;
+        width:15px;
+        background-color: transparent;
+        position: absolute;
+        border-bottom: rgb(201, 194, 177) 2px solid;
+        border-right: rgb(201, 194, 177) 2px solid;
+        left:183px;
+    }
+
+    
+</style>
+
+
+<body>
+
+    <div class="container">
+    <span class="border-top-right"></span>
+    <span class="border-top-left"></span>
+    <h1>cool border</h1>
+    <span class="border-bottom-right"></span>
+    <span class="border-bottom-left"></span>
+    </div>
+</body>
+</html>
