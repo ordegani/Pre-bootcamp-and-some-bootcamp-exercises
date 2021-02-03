@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+</head>
+<style>
+    .navbar{
+        display: flex;
+        flex-direction: row;
+       
+        justify-content: space-evenly;
+        background-color: rgb(152, 164, 89);
+    }
+    .navbar ul{
+        list-style: none;
+    }
+    .navbar ul li:hover{
+        border-top: 2px orchid solid;
+        transform: translateX(10px);
+        transition: 1s;
+    }
+    .navbar ul li:hover::after{
+        transform: translate(0);
+        
+
+    }
+</style>
+<body>
+    <div class="navbar">
+        <ul>
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>SERVICES</li>
+            <li>PORTFOLIO</li>
+            <li>CONTACT</li>
+        </ul>
+    </div>
+</body>
+</html>

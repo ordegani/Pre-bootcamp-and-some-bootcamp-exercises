@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cssGrid</title>
+</head>
+<style>
+    .container{
+        height: 800px;
+        width: 800px;
+        border:2px solid black;
+        display:grid;
+        grid-template-columns: repeat, (4,1fr);
+        grid-row: repeat, (3,1fr);
+        padding:20px;
+        grid-gap:20px;
+    }
+    .container>div{
+        border-radius: 20px;
+    }
+    .red{
+        background-color: red;
+        grid-column: 1/ span 4;
+    }
+    .green{
+        background-color: green;
+        grid-column: 3/ span 2;
+        
+    } 
+    .blue{
+        background-color:blue;
+        grid-column: 1/ span 2;
+        grid-row: 2/span 2;
+
+    } 
+    .purple{
+        background-color: purple;
+        grid-column: 3;
+    }
+    .purple2{
+        background-color: purple;
+        
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="red"></div>
+        <div class="blue"></div>
+        <div class="green"></div>
+        <div class="purple"></div>
+        <div class="purple2"></div>
+    </div>
+</body>
+</html>
