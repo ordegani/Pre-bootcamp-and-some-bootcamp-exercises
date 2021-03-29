@@ -1,3 +1,5 @@
+//explained udemy exercise-part 1
+
 import React from 'react';
 
 //class charactoristics
